@@ -1,0 +1,127 @@
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: myfont;
+    color:aquamarine;
+}
+
+
+
+
+@font-face{
+    font-family: myfont;
+    src:url("etho.otf");
+    color: aquamarine;
+}
+
+
+
+header h1 {
+    width: 50%;
+    border: 1px rgb solid;
+    font-family: myfont, sans-serif;
+    
+}
+
+header nav {
+    width: 50%;
+   
+    
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+nav ul li a{
+    color: aquamarine;
+    font-family: myfont;
+}
+body {
+    background-color: rgb(45, 44, 45);
+    
+
+}
+
+figure {
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/18/11/10/banner-5185741_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    
+}
+
+img {
+    width: 100%;
+
+}
+
+.left-side {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: myfont;
+    
+}
+
+.left-side .title {
+    width: 10%;
+    border-right: 4px greenyellow;
+    text-align: right;
+}
+
+.left-side .section-container {
+    width: 83%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+.card img{
+    height: 400px;
+width: 600px;
+}
+
+.card {
+    width: 47.5%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.card h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+}
+
+.section-container.sectuin-class.img{
+max-height: 400px ;
+}
+
+.section-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: myfont;
+    color:aquamarine;
+}
+.section-container ul li a{
+    color: aquamarine;
+    font-family: myfont;
+} 
+
+#image1 {
+    position: relative;
+    margin-top: 10px;
+
+}
+
+#image1 h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+}
+
